@@ -8,6 +8,7 @@ export interface PropertyProps {
   offers: OfferProps;
   image: string;
   discount: string;
+  description?: string;
 }
 
 export interface AddressProps {
